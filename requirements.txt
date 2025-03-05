@@ -1,0 +1,11 @@
+# --- requirements.txt (Dependencies) ---
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+celery
+redis
+pillow
+requests
+python-dotenv
+aiofiles
