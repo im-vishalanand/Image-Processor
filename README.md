@@ -90,6 +90,18 @@ python -m celery -A worker worker --loglevel=info
 ---
 
 ## 📌 API Documentation
+Swagger UI
+
+FastAPI provides a built-in Swagger UI for easy API testing.Once your FastAPI server is running, open your browser and go to:
+```sh
+http://localhost:8000/docs
+```
+
+This provides:
+✅ Interactive UI to test APIs
+✅ Auto-generated request & response models
+✅ Ability to send requests directly from the browser
+
 ### **1️⃣ Upload API (CSV Upload & Processing Start)**
 **Endpoint:** `POST /upload/`
 - **Request:**
