@@ -98,7 +98,7 @@ Once your FastAPI server is running, open your browser and go to:
 http://localhost:8000/docs
 ```
 
-This provides:
+This provides:  
 ✅ Interactive UI to test APIs  
 ✅ Auto-generated request & response models  
 ✅ Ability to send requests directly from the browser  
